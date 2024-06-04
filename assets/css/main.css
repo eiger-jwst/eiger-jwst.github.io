@@ -184,6 +184,21 @@ input, select, textarea {
 		margin-bottom: 1em;
 	}
 
+	/* begin{DK added} */
+	dl dt {
+			display: block;
+			font-weight: 600;
+			/*margin: 0 0 1rem 0;*/
+			margin: 0 0 0 0;
+		}
+
+		dl dd {
+		    margin-left: 1rem;
+		    margin-bottom: 1rem;
+			/*margin-left: 0;*/
+		}
+	/* end{DK added} */
+		
 	p {
 		text-align: justify;
 	}
